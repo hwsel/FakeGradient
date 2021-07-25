@@ -12,23 +12,41 @@ The DNN models used here are from the torchvision libraries.
 The files are organized as below:
 
 Fake Gradient:
+
 	|
+
 	|
+
 	|---------ModelModify.py: contains the core functions that modify the model
+
 	|
+
 	|---------DeepFoolB.py: the original code of Deepfool
+
 	|
+
 	|---------DeepFoolC.py: the original code of Deepfool with minor modification for   
+
  	|	displaying the parameters of the modified model
+
 	|
+
 	|---------HeatMapShow.py: contains functions to process and visualize the
-    |	gradient/perturbation
+    	gradient/perturbation
+
 	|
+
 	|---------AnalysisWeight.py: Code to analyze the weights of fully connected layer
+
 	|
+
 	|---------MM21_classifiactionResult.py: The code to analyze the overhead
+
 	|
+
 	|
-	|---------MM21_FakeGradient_DeepFool_XXXX.py: The code to analyze defense 
+
+	|---------MM21_FakeGradient_DeepFool_XXXX.py: The code to analyze defense
+     
     |	accuracy based on Model XXXX
 
