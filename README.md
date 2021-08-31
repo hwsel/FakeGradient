@@ -11,7 +11,7 @@ The DNN models used here are from the torchvision libraries.
 
 The files are organized as below:
 
-Fake Gradient:
+FakeGradient:
 
 	|
 
